@@ -1,6 +1,6 @@
 ## English Readme:
 
-# UniProductDatabaseApp
+# Uni Product Database
 
 UniProductDatabaseApp is a Python application built with the Kivy framework that enables users to interact with a product database stored in MongoDB. This application offers users the ability to search for products, add new ones, and view a list of all stored products.
 
@@ -38,7 +38,7 @@ Before running the app, make sure you have the required libraries installed. You
 
 ## Hungarian Readme:
 
-# UniProductDatabaseApp
+# Uni Product Database
 
 Az UniProductDatabaseApp egy Python alkalmazás, amelyet a Kivy keretrendszer segítségével készítettek. Ez lehetővé teszi a felhasználók számára, hogy egy MongoDB adatbázisban tárolt termékadatokkal interakcióba lépjenek. Ez az alkalmazás lehetővé teszi a termékek keresését, új termékek hozzáadását és az összes tárolt termék listájának megtekintését.
 
