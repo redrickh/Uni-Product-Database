@@ -50,17 +50,17 @@ Az Uni Product Database egy Python alkalmazás, amelyet a Kivy keretrendszer seg
 
 - **Az összes termék megtekintése**: A felhasználók megtekinthetik az adatbázisban tárolt összes termék listáját.
 
-Működés
+### Működés
 Az alkalmazás a Kivy keretrendszert használja a grafikus felhasználói felülethez, és csatlakozik egy MongoDB adatbázishoz a termékadatok kezeléséhez. Amikor egy felhasználó beír egy terméknevet, majd megnyomja a "Keresés" gombot, az alkalmazás lekérdezi az adatbázist a termék részletekért. Ha a termék létezik, megjeleníti a nevét és leírását; ha nem, jelezni fogja, hogy nincs találat.
 
 Az alkalmazás lehetőséget nyújt új termékek hozzáadására is. Ehhez meg kell nyomni a "Termék hozzáadása" gombot, ami egy felugró ablakot nyit meg a termék nevének és leírásának megadásához. A "Hozzáadás" gomb megnyomásával a rendszer elmenti az új terméket az adatbázisba.
 
 Az összes termék megtekintéséhez meg kell nyomni az "Összes termék" gombot, amely megjeleníti az összes adatbázisban tárolt termék listáját. A listából kiválaszthat egy terméket a részletek megtekintéséhez.
 
-Telepítés
+## Telepítés
 Az alkalmazás futtatása előtt győződj meg róla, hogy telepítetted a szükséges könyvtárakat. Emellett be kell állítanod egy MongoDB adatbázist, és le kell cserélned a uri változót a saját MongoDB kapcsolati URI-dal.
 
-Használat
+## Használat
 Az alkalmazást a main.py fájl futtatásával indítsd el.
 Add meg a termék nevét, majd nyomd meg a "Keresés" gombot a termék kereséséhez.
 A "Termék hozzáadása" gombra kattintva adhatsz hozzá új termékeket.
