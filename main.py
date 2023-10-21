@@ -16,7 +16,7 @@ ca = certifi.where()
 dns.resolver.default_resolver=dns.resolver.Resolver(configure=False)
 dns.resolver.default_resolver.nameservers=['8.8.8.8']
 
-uri = "mongodb+srv://redrick555:YOURMONGODBPASSWORDHERE@cluster0.6nqbmqw.mongodb.net/?retryWrites=true&w=majority"
+uri = "mongodb+srv://YOURMONGOUSERNAME:YOURMONGODBPASSWORDHERE@cluster0.6nqbmqw.mongodb.net/?retryWrites=true&w=majority"
 # Create a new client and connect to the server
 client = MongoClient(uri, tlsCAFile=ca, server_api=ServerApi('1'))
 db = client["Cluster0"]  # Adatbázis neve
